@@ -24,7 +24,6 @@ function onSuccess(position) {
     const { latitude, longitude } = position.coords;
     let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=14b596db390b68c40e74dbbb55bb25d0`;
     fetch(api).then(response => response.json()).then(result => weatherDetails(result));
-    alert(`Your location: ${latitude} ${longitude}`);
 }
 
 function onError(error) {
