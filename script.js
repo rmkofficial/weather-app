@@ -75,7 +75,6 @@ function weatherDetails(info) {
         wrapper.classList.add('active');
         headerBtn.style.cursor = 'pointer';
         inputField.value = '';
-        console.log(info);
     }
 }
 

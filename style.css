@@ -94,7 +94,7 @@ body {
 }
 
 .seperator::before {
-  content: "veya";
+  content: "or";
   background: rgb(255, 255, 255);
   color: blue;
   padding: 0 15px;
